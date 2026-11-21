@@ -9,3 +9,6 @@ python-multipart
 langchain
 langchain-groq
 langgraph
+
+google-genai
+pyaudio
