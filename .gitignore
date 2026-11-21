@@ -1,0 +1,44 @@
+# Environment variables (NEVER commit secrets!)
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+**/venv/
+.venv/
+**/env/
+
+# Python cache & compiled files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Vector database & temporary data
+notes_db/
+**/notes_db/
+tasks.txt
+**/tasks.txt
+
+# Node / Frontend build & dependencies
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+dist-ssr/
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
